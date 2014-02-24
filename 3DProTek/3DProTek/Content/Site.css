@@ -1,0 +1,37 @@
+﻿.menu li
+{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.featured .slides, .featured .slides img
+{
+    width: 100%;
+}
+
+.PYO
+{
+    background-color: #8fe5f2;
+    min-height: 350px;
+}
+
+.library
+{
+    background-color: #fff;
+    min-height: 400px;
+}
+
+.social
+{
+    background-color: #efac9e;
+    min-height: 150px;
+}
+
+footer
+{
+    background-color: #484747;
+    color: #bbb;
+    padding: 20px;
+}
