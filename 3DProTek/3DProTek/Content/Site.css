@@ -1,9 +1,7 @@
 ﻿.menu li
 {
-    text-decoration: none;
-    display: inline;
-    padding: 20px;
-    font-size: 24px;
+    margin-right: 30px;
+    font-size: 22px;
 }
 
 .featured .slides, .featured .slides img
@@ -34,4 +32,15 @@ footer
     background-color: #484747;
     color: #bbb;
     padding: 20px;
+}
+.navbar-brand
+{
+    padding: 0 !important;
+    font-size: 28px !important;
+    margin-top: 20px;
+}
+
+.navbar-toggle .icon-bar
+{
+    background-color: #bbb;
 }
