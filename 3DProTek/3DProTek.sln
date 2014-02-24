@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DProTek", "3DProTek\3DProTek.csproj", "{153B4D65-EF9D-4342-8F1B-A18F47E3C637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DProTek.Tests", "3DProTek.Tests\3DProTek.Tests.csproj", "{B5F08A4D-C649-49AD-A7A2-D719C42E2B37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153B4D65-EF9D-4342-8F1B-A18F47E3C637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153B4D65-EF9D-4342-8F1B-A18F47E3C637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153B4D65-EF9D-4342-8F1B-A18F47E3C637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153B4D65-EF9D-4342-8F1B-A18F47E3C637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F08A4D-C649-49AD-A7A2-D719C42E2B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F08A4D-C649-49AD-A7A2-D719C42E2B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F08A4D-C649-49AD-A7A2-D719C42E2B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F08A4D-C649-49AD-A7A2-D719C42E2B37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
