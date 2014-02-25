@@ -1,21 +1,28 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-@section featured {
+
+@section scripts{
+    <script src="~/3DProTekApp/app.js"></script>
+}
+
+<div ng-view=""></div>
+
+@*@section featured {
     <section class="featured">
         <div class="slides">
             <img alt="3D printer 1" src="~/Images/slide1.jpg" />
         </div>
-        @*<div class="content-wrapper">
+        <div class="content-wrapper">
             <hgroup class="title">
                 <h1>@ViewBag.Title.</h1>
                 <h2>@ViewBag.Message</h2>
             </hgroup>           
-        </div>*@
+        </div>
     </section>
-}
+}*@
 
-<section id="PYO" class="PYO">
+@*<section id="PYO" class="PYO">
     <div class="container-fluid">
         <div class="col-md-2 col-md-offset-3">
             <img alt="painting" src="~/Images/painting.png" />
@@ -48,4 +55,4 @@
             Facebook Twitter...
         </div>
     </div>
-</section>
+</section>*@

@@ -11,6 +11,7 @@ namespace _3DProTek
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js",
                         "~/Scripts/angular.js", //"~/Scripts/angular.min.js",
+                        "~/Scripts/angular-route.js", //"~/Scripts/angular-route.min.js",
                         "~/Scripts/bootstrap.js" //,"~/Scripts/bootstrap.js"
                         ));
 
