@@ -12,7 +12,14 @@
 .PYO
 {
     background-color: #8fe5f2;
-    min-height: 350px;
+    min-height: 330px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.PYO .viewmore
+{
+    margin-top: 50px;
 }
 
 .library
@@ -44,3 +51,12 @@ footer
 {
     background-color: #bbb;
 }
+
+.navbar-brand-subtext
+{
+    font-size: 18px !important;
+    color: #40afc9;
+}
+
+
+
