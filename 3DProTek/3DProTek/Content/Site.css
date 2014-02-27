@@ -31,7 +31,7 @@
     width: 100%;
 }
 
-.contact-us
+.contact-page, .about-page, .pyo-page, .our-designs-page
 {
     text-align:center;
 }
@@ -51,9 +51,8 @@ section p
 .PYO
 {
     background-color: #8fe5f2;
-    min-height: 330px;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0 30px 0;
 }
 
 .PYO .viewmore
@@ -151,12 +150,23 @@ footer
     background: transparent url("../images/googleplus.png") no-repeat left 100%;    
 }
 
-.contact-us p
+.contact-page p
 {
     margin-bottom: 50px;
 }
 
-.contact-us .featured img
+.about1, .about2
 {
-    width: 60%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.about1
+{
+    background-color: #c3d5af;
+}
+
+.about2
+{
+    background-color: #53d8be;
 }

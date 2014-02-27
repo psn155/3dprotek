@@ -16,6 +16,14 @@ app.config(["$routeProvider", function ($routeProvider) {
         controller: "contactController",
         templateUrl: "3DProTekApp/templates/contact.html"
     })
+    .when("/about", {
+        controller: "aboutController",
+        templateUrl: "3DProTekApp/templates/about.html"
+    })
+    .when("/our-designs", {
+        controller: "ourDesignsController",
+        templateUrl: "3DProTekApp/templates/ourDesigns.html"
+    })
     .otherwise({ redirectTo: "/" });
 }]);
 
@@ -32,5 +40,15 @@ var pyoController = ["$scope", function ($scope) {
 
 //contactController
 var contactController = ["$scope", function ($scope) {
+
+}];
+
+//aboutController
+var aboutController = ["$scope", function ($scope) {
+
+}];
+
+//ourDesignsController
+var ourDesignsController = ["$scope", function ($scope) {
 
 }];

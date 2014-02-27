@@ -172,8 +172,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="3DProTekApp\app.js" />
+    <Content Include="3DProTekApp\templates\about.html" />
     <Content Include="3DProTekApp\templates\contact.html" />
     <Content Include="3DProTekApp\templates\home.html" />
+    <Content Include="3DProTekApp\templates\ourDesigns.html" />
     <Content Include="3DProTekApp\templates\pyo.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -241,6 +243,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Images\about.jpg" />
     <Content Include="Images\contactus.jpg" />
     <Content Include="Images\facebook.png" />
     <Content Include="Images\googleplus.png" />
