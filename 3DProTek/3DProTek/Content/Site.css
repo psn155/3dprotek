@@ -3,51 +3,27 @@
     font-family: Verdana, Tahoma !important;
 }
 
-header
-{
-    margin-bottom: -21px;
-}
-
 .navbar ul
 {
     margin-bottom: 0 !important;
 }
 
-.menu li
-{
-    margin-right: 30px;
-    font-size: 22px;
-    padding: 30px 40px !important;
-}
-
-.navbar .navbar-header a:hover, .navbar .navbar-header a:focus, .menu a:hover, .menu a:focus
+.navbar a:hover, .navbar a:focus
 {
     text-decoration: none !important;
 }
 
-.menu li.about
+.menu li
 {
-    background-color: #85F7DE;
+    font-size: 13pt;
+    padding: 15px 30px 0 30px !important;
+    text-align: center;
 }
 
-.menu li.pyo
+.menu li .sub
 {
-    background-color: #8fe5f2;    
-}
-
-.menu li.lib
-{
-    background-color: #fcbbae;
-}
-
-.menu li.contact
-{
-    background-color: #e6d68e;
-}
-
-.menu li.account
-{
-    background-color: #c3d5af;
+    font-size: 11pt;
+    color: #888;
 }
 
 .featured .slides, .featured .slides img
@@ -110,7 +86,7 @@ footer
 {
     padding: 0 !important;
     font-size: 28px !important;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .navbar-toggle .icon-bar
