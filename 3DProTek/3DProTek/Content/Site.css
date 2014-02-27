@@ -3,6 +3,11 @@
     font-family: Verdana, Tahoma !important;
 }
 
+.navbar-brand
+{
+    margin-bottom: 20px;
+}
+
 .navbar ul
 {
     margin-bottom: 0 !important;
