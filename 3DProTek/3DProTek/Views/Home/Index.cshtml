@@ -4,70 +4,33 @@
 
 @section scripts{
     <script src="~/3DProTekApp/app.js"></script>
+
+    <!--Google Analytics-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-48461868-1', '3dprotek.com');
+        ga('send', 'pageview');
+	</script>
 }
 
 <div ng-view=""></div>
 
 <section class="social">
     <div class="container-fluid">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-md-offset-3">
             <ul class="list-inline">
                 <li><a href="https://www.facebook.com/3dprotek" target="_blank"><div class="facebook" title="Facebook"></div></a></li>
                 <li><a href="https://twitter.com/3dprotek" target="_blank"><div class="twitter" title="Twitter"></div></a></li>
-                <li><a href="#" target="_blank"><div class="pinterest" title="Pinterest"></div></a></li>
-                <li><a href="#" target="_blank"><div class="googleplus" title="Google+"></div></a></li>
+                <li><a href="http://www.pinterest.com/3dprotek" target="_blank"><div class="pinterest" title="Pinterest"></div></a></li>
+                <li><a href="https://plus.google.com/109737055330683998269/posts" target="_blank"><div class="googleplus" title="Google+"></div></a></li>
             </ul>    
             
         </div>
     </div>
 </section>
-
-@*@section featured {
-    <section class="featured">
-        <div class="slides">
-            <img alt="3D printer 1" src="~/Images/slide1.jpg" />
-        </div>
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1>@ViewBag.Title.</h1>
-                <h2>@ViewBag.Message</h2>
-            </hgroup>           
-        </div>
-    </section>
-}*@
-
-@*<section id="PYO" class="PYO">
-    <div class="container-fluid">
-        <div class="col-md-2 col-md-offset-3">
-            <img alt="painting" src="~/Images/painting.png" />
-        </div>
-        <div class="col-md-4">
-            <h2>Print Your Own</h2>
-
-            <p>Choose your file under the .TSL format and upload it to us using the icon below. dusan cezak dusan cezak dusan cezak dusan cezak dusan cezak dusan cezak dusan cezak dusan cezak</p>
-
-            <a class="btn btn-info btn-lg viewmore" href="#PYO">Go print</a>
-        </div>
-    </div>
-</section>
-
-<section id="library" class="library">
-    <div class="container-fluid">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <h2>Our Library</h2>
-            blblblblblblblba
-        </div>
-    </div>
-</section>
-
-<section class="social">
-    <div class="container-fluid">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <h2>Connect With Us</h2>
-            Facebook Twitter...
-        </div>
-    </div>
-</section>*@
