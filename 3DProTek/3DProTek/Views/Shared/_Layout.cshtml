@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="author" content="3DProTek" />
         <meta name="description" content="3DProTek provides 3D printers and 3D printing services. You can print your own 3D printable files (.STL) or select our amazing pre-designs models." />
-        <meta name="keywords" content="3D, 3 dimensions, 3D printing, melbourne, australia, 3D printer, rapid prototype, STL, 3D design, model" />
+        <meta name="keywords" content="3d, 3d printer, 3d printers, 3d print, 3d printing, 3d printing technology, 3d printing companies, 3d printing service, rapid prototype" />
         <title>@ViewBag.Title - 3DProTek</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,25 +28,25 @@
                         </div>
                         <div class="navbar-collapse collapse">                            
                             <ul class="menu list-inline navbar-right">
-                                <li>
+                                <li ng-class="{ active: isActive('/about') }">
                                     <a href="#about">
                                         <div>ABOUT</div>
                                         <div class="sub">Who We Are</div>
                                     </a>
                                 </li>
-                                <li>
+                                <li ng-class="{ active: isActive('/pyo') }">
                                     <a href="#pyo">
                                         <div>P Y O</div>
                                         <div class="sub">Print Your Own</div>
                                     </a>
                                 </li>
-                                <li>
+                                <li ng-class="{ active: isActive('/our-designs') }">
                                     <a href="#our-designs">
                                         <div>OUR 3D DESIGNS</div>
                                         <div class="sub">Ready For Printing</div>
                                     </a>
                                 </li>
-                                <li>
+                                <li ng-class="{ active: isActive('/contact') }">
                                     <a href="#contact">
                                         <div>CONTACT</div>
                                         <div class="sub">In Touch With Us</div>
