@@ -20,7 +20,7 @@ app.config(["$routeProvider", function ($routeProvider) {
         controller: "aboutController",
         templateUrl: "3DProTekApp/templates/about.html"
     })
-    .when("/our-designs", {
+    .when("/our-3d-designs", {
         controller: "ourDesignsController",
         templateUrl: "3DProTekApp/templates/ourDesigns.html"
     })
@@ -37,6 +37,35 @@ app.run(["$rootScope", "$location", function ($rootScope, $location) {
 //homeController
 var homeController = ["$scope", function ($scope) {
     document.title = "Home - 3DProTek";
+
+    $scope.featuredModels =
+    [{
+        name: "Military Tank",
+        url: "../../Images/tank_thumbnail.png"
+    },
+    {
+        name: "Tyrannosaurus",
+        url: "../../Images/dinosaur_thumbnail.png"
+    },
+    {
+        name: "Lion",
+        url: "../../Images/lion n ball_thumbnail.png"
+    },
+    
+    {
+        name: "Boeing CH-47 Chinook Helicopter",
+        url: "../../Images/helicopter_thumbnail.png"
+    },
+    {
+        name: "Skull",
+        url: "../../Images/skull_thumbnail.png"
+    },
+    
+    {
+        name: "Couple",
+        url: "../../Images/couple_thumbnail.png"
+    }];
+
 }];
 
 //pyoController

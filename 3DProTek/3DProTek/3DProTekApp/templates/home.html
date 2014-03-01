@@ -16,17 +16,36 @@
 
             <p>Choose your file under the .STL format and upload it to us. We will confirm with you about the cost before you decide to print your 3D model. Please click the button below to proceed upload and fill in other printing requirements. </p>
 
-            <a class="btn btn-primary btn-lg viewmore" href="#/pyo">Go print</a>
+            <a class="btn btn-primary btn-lg viewmore" href="#/pyo">Start your 3D Print</a>
         </div>
     </div>
 </section>
 
-<section id="library" class="library">
+<section id="our-3d-models" class="our-3d-models">
     <div class="container-fluid">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <h2>Print Our 3D Models</h2>
-            <p>Coming soon...</p>
+        <div class="row">
+            <h2 class="col-md-6 col-md-offset-3">Print Our 3D Models</h2>
+        </div>
+        <div class="row">          
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="container-fluid">
+                    <div class="col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-3 col-sm-offset-1 col-xs-6 col-xs-offset-0" ng-repeat="model in featuredModels">
+                        <div class="container-fluid featured-item">
+                            <div class="col-lg-12 col-lg-offset-0 col-md-8 col-md-offset-2">
+                                <img alt="featured model" src="{{ model.url }}" />
+                                <div class="model-name">{{ model.name }}</div>
+                                <div class="options">
+                                    <a href="#model-view" class="btn btn-info">View</a>
+                                    <a href="#pyo" class="btn btn-primary ">3D Print</a>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="row viewmore">
+            <a href="#our-3d-designs" class="">View more</a>
         </div>
     </div>
 </section>

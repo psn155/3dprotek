@@ -65,16 +65,48 @@ section p
     padding: 50px 0 30px 0;
 }
 
-.PYO .viewmore
+.viewmore
 {
     margin-top: 30px;
 }
 
-.library
+.our-3d-models .viewmore
 {
-    background-color: #fff;
-    min-height: 400px;
-    padding-top: 20px;
+    font-size: 13pt;
+}
+
+.our-3d-models
+{
+    background-color: #fff;    
+    padding: 20px 0;
+    text-align: center;
+}
+
+.our-3d-models img
+{
+    width: 100%;
+}
+
+.our-3d-models .featured-item
+{
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.our-3d-models .options, .our-3d-models .model-name
+{
+    padding-top: 5px;
+}
+
+.our-3d-models .options a
+{
+    margin-top: 5px;
+}
+
+.our-3d-models .model-name
+{
+    
 }
 
 .social

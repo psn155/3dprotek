@@ -245,11 +245,17 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Images\about.jpg" />
     <Content Include="Images\contactus.jpg" />
+    <Content Include="Images\couple_thumbnail.png" />
+    <Content Include="Images\dinosaur_thumbnail.png" />
     <Content Include="Images\facebook.png" />
     <Content Include="Images\googleplus.png" />
+    <Content Include="Images\helicopter_thumbnail.png" />
+    <Content Include="Images\lion n ball_thumbnail.png" />
     <Content Include="Images\painting.png" />
     <Content Include="Images\pinterest.png" />
+    <Content Include="Images\skull_thumbnail.png" />
     <Content Include="Images\slide1.jpg" />
+    <Content Include="Images\tank_thumbnail.png" />
     <Content Include="Images\twitter.png" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
