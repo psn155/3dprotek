@@ -24,6 +24,10 @@ app.config(["$routeProvider", function ($routeProvider) {
         controller: "ourDesignsController",
         templateUrl: "3DProTekApp/templates/ourDesigns.html"
     })
+    .when("/model", {
+        controller: "modelViewController",
+        templateUrl: "3DProTekApp/templates/model-view.html"
+    })
     .otherwise({ redirectTo: "/" });
 }]);
 
@@ -32,58 +36,7 @@ app.run(["$rootScope", "$location", function ($rootScope, $location) {
     $rootScope.isActive = function (viewLocation) {
         return viewLocation === $location.path();
     };
+    $rootScope.imgFolderUrl = "/3DModels/Images",
+      
+    $rootScope.featuredModels = [];
 }]);
-
-//homeController
-var homeController = ["$scope", function ($scope) {
-    document.title = "Home - 3DProTek";
-
-    $scope.featuredModels =
-    [{
-        name: "Military Tank",
-        url: "../../Images/tank_thumbnail.png"
-    },
-    {
-        name: "Tyrannosaurus",
-        url: "../../Images/dinosaur_thumbnail.png"
-    },
-    {
-        name: "Lion",
-        url: "../../Images/lion n ball_thumbnail.png"
-    },
-    
-    {
-        name: "Boeing CH-47 Chinook Helicopter",
-        url: "../../Images/helicopter_thumbnail.png"
-    },
-    {
-        name: "Skull",
-        url: "../../Images/skull_thumbnail.png"
-    },
-    
-    {
-        name: "Couple",
-        url: "../../Images/couple_thumbnail.png"
-    }];
-
-}];
-
-//pyoController
-var pyoController = ["$scope", function ($scope) {
-    document.title = "P Y O - 3DProTek";
-}];
-
-//contactController
-var contactController = ["$scope", function ($scope) {
-    document.title = "Contact - 3DProTek";
-}];
-
-//aboutController
-var aboutController = ["$scope", "$location", function ($scope, $location) {
-    document.title = "About - 3DProTek";    
-}];
-
-//ourDesignsController
-var ourDesignsController = ["$scope", function ($scope) {
-    document.title = "Our 3D Designs - 3DProTek";
-}];

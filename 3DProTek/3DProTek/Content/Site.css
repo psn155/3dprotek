@@ -213,3 +213,23 @@ footer
 {
     background-color: #53d8be;
 }
+
+.model-view-page .model-details .field
+{
+    margin-top: 10px;
+}
+
+.model-view-page .model-details .value
+{
+    margin-left: 10px;
+}
+
+.model-view-page .actions
+{
+    text-align: center;
+}
+
+.model-view-page .actions a
+{
+    margin-top: 10px;
+}

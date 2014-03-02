@@ -12,7 +12,15 @@ namespace _3DProTek
                         "~/Scripts/jquery-{version}.js",
                         "~/Scripts/angular.js", //"~/Scripts/angular.min.js",
                         "~/Scripts/angular-route.js", //"~/Scripts/angular-route.min.js",
-                        "~/Scripts/bootstrap.js" //,"~/Scripts/bootstrap.js"
+                        "~/Scripts/bootstrap.js", //,"~/Scripts/bootstrap.js"
+                        "~/3DProTekApp/app.js",
+                        "~/3DProTekApp/services/dataService.js",
+                        "~/3DProTekApp/controllers/homeController.js",
+                        "~/3DProTekApp/controllers/aboutController.js",
+                        "~/3DProTekApp/controllers/contactController.js",                        
+                        "~/3DProTekApp/controllers/modelViewController.js",
+                        "~/3DProTekApp/controllers/ourDesignsController.js",
+                        "~/3DProTekApp/controllers/pyoController.js"
                         ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
