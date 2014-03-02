@@ -16,7 +16,7 @@
 
             <p>Choose your file under the .STL format and upload it to us. We will confirm with you about the cost before you decide to print your 3D model. Please click the button below to proceed upload and fill in other printing requirements. </p>
 
-            <a class="btn btn-primary btn-lg viewmore" href="#/pyo">Start your 3D Print</a>
+            <a class="btn btn-primary btn-lg viewmore" href="#!/pyo">Start your 3D Print</a>
         </div>
     </div>
 </section>
@@ -35,8 +35,8 @@
                                 <img alt="{{ model.FileName }}" ng-src="{{ imgFolderUrl + '/Thumbnail/' + model.FileName }}" />
                                 <div class="model-name">{{ model.Name }}</div>
                                 <div class="options">
-                                    <a href="#model?id={{ model.Id }}" class="btn btn-info">View</a>
-                                    <a href="#pyo" class="btn btn-primary ">3D Print</a>
+                                    <a href="#!model?id={{ model.Id }}" class="btn btn-info">View</a>
+                                    <a href="#!pyo" class="btn btn-primary ">3D Print</a>
                                 </div>                                
                             </div>
                         </div>
@@ -45,7 +45,7 @@
             </div>            
         </div>
         <div class="row viewmore">
-            <a href="#our-3d-designs" class="">View more</a>
+            <a href="#!our-3d-designs" class="">View more</a>
         </div>
     </div>
 </section>

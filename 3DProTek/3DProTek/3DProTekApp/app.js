@@ -1,9 +1,10 @@
 ﻿/// <reference path="../Scripts/angular.js" />
-
 var app = angular.module("app", ['ngRoute']);
 
 // Define routings rules
-app.config(["$routeProvider", function ($routeProvider) {
+app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
+    $locationProvider.hashPrefix('!');
+
     $routeProvider.when("/", {
         controller: "homeController",
         templateUrl: "3DProTekApp/templates/home.html"
@@ -28,7 +29,7 @@ app.config(["$routeProvider", function ($routeProvider) {
         controller: "modelViewController",
         templateUrl: "3DProTekApp/templates/model-view.html"
     })
-    .otherwise({ redirectTo: "/" });
+    .otherwise({ redirectTo: "/" });    
 }]);
 
 // Initializing rootScope data. This run() is called after all modules have been loaded
